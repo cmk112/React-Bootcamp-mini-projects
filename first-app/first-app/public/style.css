@@ -1,0 +1,60 @@
+
+
+input {
+
+    height: 1.5em;
+    width: 1.5em;
+    margin: 10px;
+    background-color: #4fa595;
+
+}
+
+label.TodoItem {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+
+    margin: auto;
+    margin-bottom: 8px;
+
+    font-size: 1.5em;
+    font-family: sans-serif;
+    
+    border-left:  10px solid #4a5352;
+    
+    background-color: #99b4ae;
+
+    transition: background-color 0.35s, border-left 0.5s, width 0.5s;
+    
+}
+
+label.TodoItem:hover {
+    background-color: #94dfc2;
+    border-left: 20px solid #3b8376;
+    padding-right: -10px;
+    width: calc(100% - 10px);
+    
+    
+}
+label.TodoItem:active {
+    background-color: #ffffff;
+
+}
+
+label.completed {
+    text-decoration: line-through;
+}
+
+
+.container {
+    width: 50%;
+    min-width: 400px;
+    margin: auto;
+}
+
+body {
+    background-color: #1b1b1b;
+    color: #363838;
+    width: 100%;
+}
